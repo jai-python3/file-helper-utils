@@ -44,7 +44,7 @@ setup(
     packages=find_packages(include=['file_utils', 'file_utils.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/jai-python3/file_utils',
+    url='https://github.com/jai-python3/file-utils',
     version='0.1.0',
     zip_safe=False,
 )
