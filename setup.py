@@ -33,18 +33,18 @@ setup(
     description="Collection of exported functions for performning file-based tasks.",
     entry_points={
         'console_scripts': [
-            'file_utils=file_utils.cli:main',
+            'file_helper_utils=file_helper_utils.cli:main',
         ],
     },
     install_requires=requirements,
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='file_utils',
-    name='file_utils',
-    packages=find_packages(include=['file_utils', 'file_utils.*']),
+    keywords='file_helper_utils',
+    name='file_helper_utils',
+    packages=find_packages(include=['file_helper_utils', 'file_helper_utils.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/jai-python3/file-utils',
+    url='https://github.com/jai-python3/file-helper-utils',
     version='0.1.0',
     zip_safe=False,
 )

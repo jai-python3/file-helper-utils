@@ -1,8 +1,8 @@
-# file-utils
+# file-helper-utils
 
 Collection of exported functions for performning file-based tasks.
 
-- [file-utils](#file-utils)
+- [file-helper-utils](#file-helper-utils)
   - [Improvements](#improvements)
   - [Use Cases](#use-cases)
   - [Installation](#installation)
@@ -30,7 +30,7 @@ Please see the [INSTALL](docs/INSTALL.md) guide for instructions.
 ## Usage
 
 ```python
-from file_utils.utils import check_infile_status
+from file_helper_utils.utils import check_infile_status
 
 check_infile_status("/tmp/data.txt")
 ```
