@@ -30,7 +30,9 @@ Please see the [INSTALL](docs/INSTALL.md) guide for instructions.
 ## Usage
 
 ```python
-from file-utils import check_infile_status, check_indir_status
+from file_utils.utils import check_infile_status
+
+check_infile_status("/tmp/data.txt")
 ```
 
 ## Contributing
